@@ -1,8 +1,8 @@
-# Início
+# Home
 
 
 
-## Contextualização
+## Nivelamento
 
 Contexto necessário para entender o problema a ser abordado.
 
