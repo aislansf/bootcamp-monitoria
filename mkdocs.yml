@@ -1,4 +1,5 @@
-site_name: Novo nome
+site_name: Nivelamento - Ciência de Dados
+site_url: https://aislansf.github.io/bootcamp-monitoria/
 plugins:
   - mkdocs-jupyter
   - search
@@ -11,6 +12,7 @@ plugins:
       height: auto
       zoomable: true
       draggable: true
+  - awesome-pages    
 
 theme:
   name: material
