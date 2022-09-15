@@ -398,7 +398,7 @@ Em Python, uma função é uma sequência de comandos que executa alguma tarefa 
 ### Argumentos
 
 ```
-def NOME( PAR METROS ):
+def NOME( PARAMETROS ):
     COMANDOS
 ```
 
