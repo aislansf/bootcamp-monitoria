@@ -417,7 +417,32 @@ def soma(x,y):
     return num
 ```
 
+## Classes
 
+```
+# Definindo o nome da classe
+class calculadora:
+    
+    # definindo objeto da classe
+    var3 = 999
+    
+    # definindo método da classe
+    def soma(var1,var2):
+        resultado = var1 + var2
+        return resultado
+
+    def subtracao(var1,var2):
+        resultado = var1 - var2
+        return resultado    
+
+    def divisao(var1,var2):
+        resultado = var1 / var2
+        return resultado  
+
+    def multiplicacao(var1,var2):
+        resultado = var1 + var2
+        return resultado
+```
 
 
 
