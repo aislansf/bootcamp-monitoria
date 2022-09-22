@@ -40,6 +40,13 @@ git add .
 git add <nome do arquivo>
 ```
 
+## 4. Git commit 
+O comando git commit captura um instantâneo das mudanças preparadas do projeto no momento. Os instantâneos com commit podem ser considerados versões "seguras" de um projeto, o Git nunca os altera, a menos que você peça a ele.
+
+```
+git commit -m "Mensagem do commit"
+```
+
 
 
 
