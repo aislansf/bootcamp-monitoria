@@ -59,7 +59,53 @@ git push origin HEAD
 O git pull é um comando usado para atualizar suas branches locais de acordo com as branches remotas. Ele é uma combinação de dois comandos: git fetch seguido por git merge.
 
 ```
-
+git pull
 ```
 
+## 7. Git branch
 
+Branches (algo como ramificações, em português) são altamente importantes no mundo do git. Usando as branches, vários desenvolvedores conseguem trabalhar em paralelo no mesmo projeto simultaneamente. Podemos usar o comando git branch para criar, listar e excluir as branches.
+
+Como visualizar as branchs
+```
+git branch ou git branch --list
+```
+
+Como excluir uma branch
+```
+git branch -d <nome-da-branch>
+```
+
+## 8. Git checkout 
+Esse também é um dos comandos do Git mais usados. Para trabalhar em uma branch, primeiro, é preciso "entrar" nela. Usamos git checkout, na maioria dos casos, para trocar de uma branch para outra. Também podemos usar o comando para fazer o checkout de arquivos e commits.
+
+```
+git checkout <nome-da-branch>
+```
+
+Fazendo a troca de branch e criando ao mesmo tempo
+```
+git checkout -b <nome-da-branch>
+```
+
+## 9. Git merge
+Quando você concluir o desenvolvimento em sua branch e quando tudo funcionar bem, a etapa final é fazer o merge (mesclar ou unir, em português) da branch com a branch pai (dev ou master/main, em geral). Isso é feito com o comando git merge.
+
+Git merge, basicamente, integra sua branch com o recurso e todos os seus commits na branch de desenvolvimento (dev) ou na branch principal (master ou main). É importante lembrar que, primeiro, você precisa estar na branch específica na qual você quer fazer o merge de sua branch com o recurso.
+
+Para fazer o merge precisa primeiro você deve estar na branch que você quer mergar
+
+```
+git checkout <nome da branch>
+```
+
+Antes do merge, atualize sua branch local:
+
+```
+git fetch
+```
+
+Por fim, faça o merge da sua branch do recurso:
+```
+git merge <nome da branch>
+```
