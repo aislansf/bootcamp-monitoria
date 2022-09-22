@@ -47,7 +47,19 @@ O comando git commit captura um instantâneo das mudanças preparadas do projeto
 git commit -m "Mensagem do commit"
 ```
 
+## 5. Git push 
+O comando git push é usado para enviar o conteúdo do repositório local para um repositório remoto. 
 
+```
+git push origin HEAD
+```
 
+## 6. Git pull
+
+O git pull é um comando usado para atualizar suas branches locais de acordo com as branches remotas. Ele é uma combinação de dois comandos: git fetch seguido por git merge.
+
+```
+
+```
 
 
