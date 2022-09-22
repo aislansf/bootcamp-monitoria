@@ -105,7 +105,7 @@ Antes do merge, atualize sua branch local:
 git fetch
 ```
 
-Por fim, faça o merge da sua branch do recurso
+Por fim, faça o merge da sua branch do recurso:
 ```
 git merge <nome da branch>
 ```
