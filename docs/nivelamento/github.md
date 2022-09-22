@@ -96,7 +96,7 @@ Git merge, basicamente, integra sua branch com o recurso e todos os seus commits
 Para fazer o merge precisa primeiro você deve estar na branch que você quer mergar
 
 ```
-git checkout <nome da branch>
+git checkout master
 ```
 
 Antes do merge, atualize sua branch local:
@@ -105,8 +105,12 @@ Antes do merge, atualize sua branch local:
 git fetch
 ```
 
-Por fim, faça o merge da sua branch do recurso:
+Faça o merge da sua branch do recurso:
 ```
-git merge <nome da branch>
+git merge <nome da branch que será mergada com a master>
 ```
 
+Por fim, faça o envio da master local para o remote
+```
+git push origin HEAD
+```
