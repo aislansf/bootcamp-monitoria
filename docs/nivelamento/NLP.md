@@ -24,3 +24,12 @@ Um exemplo disso é quando encontramos as palavras “Terra” e “terra” que
 
 ### n-grams
 n-gram é um tipo de modelo probabilístico usado para prever o próximo item de uma sequência na forma de um modelo de Markov. Em um contexto linguístico, o n-grams refere-se a uma sequência n de palavras. Como podemos perceber nos exemplos a seguir: “Estudando” tem um 1-gram (unigrama); na sequência “Estudando NLP” temos um 2-gram (bigrama); e em “Estudando Machine Learning” temos um 3-gram (trigrama).
+
+![](https://raw.githubusercontent.com/aislansf/bootcamp-monitoria/master/references/imagens/N-GRAMS.png){width=100%}
+
+### Lexicons
+Quando estamos fazendo alguma tarefa que envolva NLP, às vezes precisamos considerar mais do que apenas a linguagem. Nesse caso, entram os lexicons. Na Linguística e em NLP, eles são uma parte da gramática que lida com o significado de uma palavra. Quando ela é usada em situações diferentes e ao realizar, por exemplo, uma análise de sentimento em tweets, a forma coloquial de descrever situações ou coisas interfere nos resultados finais e não podemos ignorar esses fatores.
+
+## Pré processamento e limpeza dos dados
+Antes de qualquer outra etapa, é necessário fazer o pré-processamento do texto que será usado. Nesta etapa, o objetivo é limpar o texto, removendo os ruídos (pontos, caracteres especiais, etc), palavras repetidas e aquelas com pouco valor para a base de dados. Esse processo é feito utilizando principalmente as técnicas de stop words, lemmatization e stemming.
+
