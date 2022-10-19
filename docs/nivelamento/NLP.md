@@ -46,3 +46,9 @@ Na stemming vamos analisar cada palavra individualmente e reduzi-la à sua raiz 
 ### Lemmatization 
 Na lemmatization também vamos buscar reduzir a palavra à sua raiz, retirando todas as inflexões e chegando ao lemma. Porém, essa redução sempre resultará em uma palavra que realmente existe na gramática. Outro ponto importante é que, nessa técnica, a classe gramatical da palavra será levada em consideração para fazer a redução.
 
+![](https://raw.githubusercontent.com/aislansf/bootcamp-monitoria/master/references/imagens/lemmatization.png){width=100%}
+
+### Bag of words
+É uma das técnicas mais utilizadas para fazer a feature extraction, ou seja, fazer com que as informações sejam organizadas de uma forma estruturada. Porém, os textos não são dados estruturados - não organizados de uma maneira fixa, como uma tabela - e, por isso, transformamos os textos em uma informação numérica.
+
+A técnica de bag of words nos permite representar o texto com a ocorrência de cada palavra, sem levar em conta a ordem das palavras ou a sua estrutura no texto. É realmente como se todas as palavras fossem colocadas dentro de um saco.
