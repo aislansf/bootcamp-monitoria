@@ -33,3 +33,16 @@ Quando estamos fazendo alguma tarefa que envolva NLP, às vezes precisamos consi
 ## Pré processamento e limpeza dos dados
 Antes de qualquer outra etapa, é necessário fazer o pré-processamento do texto que será usado. Nesta etapa, o objetivo é limpar o texto, removendo os ruídos (pontos, caracteres especiais, etc), palavras repetidas e aquelas com pouco valor para a base de dados. Esse processo é feito utilizando principalmente as técnicas de stop words, lemmatization e stemming.
 
+### Stop Words
+É a técnica que faz a remoção de ruídos do texto que são menos evidentes que pontuações, como os conectivos “que”, “o”, “a”, “de”, entre outros. Quase todos os textos em português contém conectivos e palavras comuns que não são significativas para o nosso modelo, então podemos retirá-las.
+
+Uma das bibliotecas usadas para NLP, a NLTK (National Language Toolkit), fornece auxílio para remoção das stop words passando como parâmetro o idioma do corpus que está sendo trabalhado e identificando se é uma palavra de alta frequência e baixa relevância.
+
+### Stemming 
+Na stemming vamos analisar cada palavra individualmente e reduzi-la à sua raiz ou, como é chamado na técnica, ao seu stem. Uma característica dessa técnica é que ela pode reduzir a palavra a uma outra gramaticalmente incorreta, porém ainda com valor para nossa análise. Os algoritmos de stemming têm um conjunto de regras para decidir como fazer os cortes.
+
+![](https://raw.githubusercontent.com/aislansf/bootcamp-monitoria/master/references/imagens/stemming.png){width=100%}
+
+### Lemmatization 
+Na lemmatization também vamos buscar reduzir a palavra à sua raiz, retirando todas as inflexões e chegando ao lemma. Porém, essa redução sempre resultará em uma palavra que realmente existe na gramática. Outro ponto importante é que, nessa técnica, a classe gramatical da palavra será levada em consideração para fazer a redução.
+
