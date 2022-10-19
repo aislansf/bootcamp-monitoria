@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://aislansf.github.io/bootcamp-monitoria/</loc>
+         <lastmod>2022-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://aislansf.github.io/bootcamp-monitoria/nivelamento/NLP/</loc>
+         <lastmod>2022-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://aislansf.github.io/bootcamp-monitoria/nivelamento/git/</loc>
+         <lastmod>2022-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://aislansf.github.io/bootcamp-monitoria/nivelamento/nivelamento/</loc>
+         <lastmod>2022-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://aislansf.github.io/bootcamp-monitoria/notebooks/01-exploratory_data_analysis/</loc>
+         <lastmod>2022-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://aislansf.github.io/bootcamp-monitoria/notebooks/02-segunda_analise/</loc>
+         <lastmod>2022-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
